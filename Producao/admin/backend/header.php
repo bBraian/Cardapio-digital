@@ -189,6 +189,7 @@ while ($linha = $sql->fetch(PDO::FETCH_ASSOC)) {
 
                 <div class="botoes_edit">
                     <a class="btn btn-success" href="javascript:void(0);" onclick="update()" style="margin: 0 8px;" id="update" >Salvar</a>
+                    <input type="submit" class="btn btn-success" style="margin: 0 8px; color: white !important" id="save" value="Salvar"></input>
                     <a class="btn btn-danger" href="javascript:void(0);"  onclick="excluir()" style="margin: 0 8px;" id="excluir">Excluir</a>
                 </div>
             </form>

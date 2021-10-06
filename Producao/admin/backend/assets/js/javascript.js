@@ -2,6 +2,9 @@ var modal = document.querySelector('.modal');
 var edit = document.querySelector('.edit');
 var btn_close = document.getElementById('btn_close');
 var img_modal = document.querySelector('.img-c');
+var btn_excluir = document.getElementById('excluir');
+var btn_update = document.getElementById('update');
+var btn_save = document.getElementById('save');
 
 /* JS EMPRESA */
 function fechar_modal_empresa() {
@@ -114,7 +117,9 @@ function fechar_modal_edit() {
 
 function add_item() {
     edit.style.display = 'block';
-    btn_close.style.display = 'none';
+    btn_save.style.display = 'block';
+    btn_excluir.style.display = 'none';
+    btn_update.style.display = 'none'
     img_modal.style.display = 'none';
 }
 
@@ -123,7 +128,9 @@ function edit_item(id) {
 
     //Abre o modal para editar
     edit.style.display = 'block';
-    btn_close.style.display = 'block';
+    btn_excluir.style.display = 'block';
+    btn_update.style.display = 'block';
+    btn_save.style.display = 'none';
     img_modal.style.display = 'block';
 }
 

@@ -12,9 +12,8 @@ $sql = "INSERT INTO bas_itens (link_foto, nome_item, descricao, preco, categoria
 $query = $pdo->prepare($sql);
 $query->execute([$imagem, $nome_item, $descricao, $preco, $categoria]);
 
-?>
+if($query) {
+header('Location:hamburgueres.php');
+}
 
-<script>
-    alert('Inserido com sucesso!');
-    document.querySelector('.modal').style.display = 'none';
-</script>
+?>

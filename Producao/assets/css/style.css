@@ -95,7 +95,7 @@
     .categoria-slider{
         display: flex;
         text-align: center;
-        /* justify-content: center; */
+        justify-content: center;
         overflow-x: auto;
         width: 100%;
         background-color: var(--background-color);
@@ -381,7 +381,7 @@
     .categoria-slider{
         display: flex;
         text-align: center;
-        /* justify-content: center; */
+        justify-content: center;
         overflow-x: auto;
         width: 100%;
         background-color: var(--background-color);
@@ -669,7 +669,7 @@
     .categoria-slider{
         display: flex;
         text-align: center;
-        /* justify-content: center; */
+        justify-content: center;
         overflow-x: auto;
         width: 100%;
         background-color: var(--background-color);
